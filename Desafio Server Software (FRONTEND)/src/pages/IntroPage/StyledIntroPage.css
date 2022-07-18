@@ -1,0 +1,150 @@
+.products_container {
+   background-color: rgb(161, 156, 156);
+   display: flex;
+   justify-content: center;
+   width: 100vw;
+   min-height: 100vh;
+}
+
+.products_box {
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   position: absolute;
+   z-index: 0;
+}
+
+.products_select {
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   background-color: white;
+   border-radius: 1rem;
+}
+
+.product_box {
+   margin: 0.2rem 3rem;
+   padding: 0 0.5rem;
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   border-width: 1px;
+   border-style: solid;
+   border-color: rgb(46, 46, 46,0.5);
+}
+
+.product_code {
+   background-color: rgb(198, 198, 211,0.5);
+   padding: 1.3rem 1rem;
+   width: 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.product_description{
+   width: 25rem;
+   overflow: hidden;
+}
+
+.edit-btn-icon{
+   width: 100%;
+}
+
+.btn-icon{
+   width: 130%;
+   height: 100%;
+}
+
+.btn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.products_detail_box{
+   position: fixed;
+   background-color: rgba(53, 53, 58, 0.5);
+   height: 100vh;
+   width: 30rem;
+   margin-left: 78vw;
+   transition: 1s;
+   z-index: 10;
+}
+
+.torigth{
+   position: fixed;
+   background-color: rgb(146, 146, 161,0.5);
+   height: 100vh;
+   width: 30rem;
+   transition: 1s;
+   margin-left: 136vw;
+   z-index: 10;
+}
+
+.products_detail_container{
+   background-color: rgb(255, 255, 255);
+   width: 20rem;
+   height: 80%;
+   border-radius: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 2rem;
+   gap: 1rem;
+}
+
+.products_edit_box{
+   position: fixed;
+   background-color: rgba(53, 53, 58, 0.5);
+   height: 30rem;
+   width: 70vw;
+   margin-top: 20vw;
+   margin-left: -42.7rem;
+   transition: 1s;
+   z-index: 10;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+
+}
+
+.toTop{
+   position: fixed;
+   background-color: rgb(146, 146, 161,0.5);
+   height:30rem;
+   width: 70vw;
+   transition: 1s;
+   margin-top: 100vh;
+   margin-left: -42.7rem;
+   z-index: 10;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+}
+
+.products_edit_container{
+   background-color: white;
+   margin-top: 1rem;
+   width: 70%;
+   height: 60%;
+   border-radius: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.form-personal-data-container2{
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+   margin-top: 0.5rem;
+}
+
+.form-personal-data-container2 input{
+ font-size: 1rem;
+ width: 30rem;
+}
+

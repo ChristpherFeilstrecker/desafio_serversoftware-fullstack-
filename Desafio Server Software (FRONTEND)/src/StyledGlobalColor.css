@@ -1,0 +1,9 @@
+:root {
+    --blue-strong: rgba(0, 153, 221);
+    --blue-strong-opacity:rgba(0, 153, 221,0.8);
+    --blue-weak:rgb(67, 193, 207);
+    --box-shadow:rgb(181, 176, 176);
+    --grey-text:rgb(134, 131, 131);
+    --border:#e7e7e7;
+    --green-alert:rgb(20, 225, 51);
+  }
